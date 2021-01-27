@@ -4,11 +4,17 @@ body, html {
 
 .container-banner {
   margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
   #logo {
     margin: 50px;
-    color: $creme;
+    color: white;
     font-size: 36px;
     text-decoration: none;
+    h1 {
+      margin: 0px;
+    }
   }
 }
 
