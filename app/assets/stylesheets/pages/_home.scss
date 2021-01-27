@@ -12,9 +12,10 @@ body, html {
 
 .container-banner {
   margin: 0px;
-  h1 {
+  #logo {
     margin: 50px;
     color: $creme;
     font-size: 36px;
+    text-decoration: none;
   }
 }
