@@ -22,9 +22,13 @@ ActiveStorage.start()
 import "bootstrap";
 
 // Internal imports, e.g:
-// import { initSelect2 } from '../components/init_select2';
+  // import { initSelect2 } from '../components/init_select2';
+import { parallaxEffect } from "../lib/parallax-effect.js";
+import { burgerMenu } from "../lib/burger-menu.js";
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
+  parallaxEffect();
+  burgerMenu();
 });
