@@ -1,1 +1,20 @@
-// Specific CSS for your home-page
+body, html {
+  height: 100%;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(97, 73, 64, 0.1), rgba(97, 73, 64, 0.1)), url("Bannière.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container-banner {
+  margin: 0px;
+  h1 {
+    margin: 50px;
+    color: $creme;
+    font-size: 36px;
+  }
+}
