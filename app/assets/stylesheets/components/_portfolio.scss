@@ -1,0 +1,35 @@
+.container-portfolio {
+  margin-bottom: 150px;
+
+}
+
+.row {
+  margin: 0;
+  .pastry-row {
+    display: flex;
+    .card-front  {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 15px;
+      img {
+        width: 240px;
+      }
+    }
+  }
+}
+
+
+
+
+
+.portfolio-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 70px 0 70px 0;
+  h2 {
+    color: $creme;
+  }
+}
+
