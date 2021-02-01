@@ -6,6 +6,9 @@
   .row {
     margin: 70px 0;
     flex-wrap: nowrap;
+    img {
+      width: 20%;
+    }
     .portray-description {
       display: flex;
       flex-direction: column;
