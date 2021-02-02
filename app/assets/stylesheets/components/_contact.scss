@@ -1,0 +1,60 @@
+abbr { 
+  /* to remove .. under* when field required  */
+  text-decoration: none !important;
+  color: rgb(241, 97, 97);
+}
+
+label {
+  color: $creme;
+  font-size: 20px !important;
+}
+
+.full-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit {
+  text-align: center;
+  margin: 30px 0 70px 0;
+  .form-button {
+    background-color: $gold;
+    color: white;
+    border-radius: 25px 0;
+    width: 200px;
+    box-shadow: 3px 3px 4px rgba(30, 30, 30, 0.1);
+    &:hover {
+      background-color: #614b43;
+      color: $gold;
+    }
+  }
+}
+
+.form-control::placeholder  {
+  color: rgb(185, 185, 185);
+  padding: 10px 0;
+  text-align: center;
+  font-style: italic;
+}  
+
+#contact_last_name, #contact_first_name, 
+#contact_email, #contact_address, #contact_message {
+  border: white;
+  border-radius: 25px 0;
+  padding: 20px;
+}
+
+#container-form {
+  width: 40% !important;
+  margin-top: 70px;
+}
+
+#contact_message {
+  height: 200px;
+}
+
+#form-title {
+  color: $creme;
+  text-align: center;
+  margin-bottom: 70px;
+}
