@@ -1,15 +1,21 @@
 class ContactsController < ApplicationController
-  def def new
+  def new
     @contact = Contact.new
   end
   
   def create
     @contact = Contact.new(contact_params)
+    @contact.request = request
     if @contact.deliver
-      render json: {message: "Vous message a été transmis"}
+      flash.now[:notice] = 'Votre message a bien été transmis'
+      render :new
     else
-      render json: @contact.errors
+      flash.now[:error] = 'Merci de compléter tous les champs requis'
+      render :new
     end
+  end
+
+  def disclaimer
   end
 
   private

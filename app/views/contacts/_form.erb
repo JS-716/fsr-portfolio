@@ -1,0 +1,15 @@
+<div class="container" id="container-form">
+  <h2 id="form-title">ME CONTACTER</h2>
+  <%= simple_form_for @contact do |f| %>
+    <div class="full-name">
+      <%= f.input :last_name, label: "Nom de famille", :required => true, :placeholder => "Dupont" %>
+      <%= f.input :first_name, label: "Prénom", :required => true, :placeholder => "Marion" %>
+    </div>
+    <%= f.input :email, label: "E-mail", :required => true, :placeholder => "marion.dupont@gmail.com" %>
+    <%= f.input :address, label: "Adresse", :required => false, :placeholder => "10 rue Abcd 78220 viroflay" %>
+    <%= f.input :message, label: "Message", :as => :text, :required => true, :placeholder => "Votre message" %>
+    <div class="submit">
+      <%= f.button :submit, 'Envoyer', :class=> "form-button" %>
+    </div>
+  <% end %>
+</div>
