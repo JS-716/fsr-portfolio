@@ -1,0 +1,18 @@
+<% if !!flash[:notice] %>
+  <div class="container-notice">
+    <div class="flash-notice">
+      <div class='alert alert-error'>
+        <button type="button" class="close" data-dismiss="alert" id="flash-close-btn">×</button>
+        <div class="flash-content">
+          <h2 id="flash-title">MERCI</h2>
+          <%= flash[:notice] %>
+          <p id="flash-text">Je reviens vers vous dans les plus brefs délais.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<% end %>
+
+<% if !!flash[:errors] %>
+   <p><%= flash[:error] %></p>
+<% end %>
