@@ -15,9 +15,11 @@ module FsrPortfolio
     end
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
-    config.i18n.default_locale = :fr
+    
     # Configuration for the application, engines, and railties goes here.
-    #
+    config.i18n.available_locales = [:en, :fr]
+    config.i18n.default_locale = :fr
+    config.i18n.fallbacks = true
     # These settings can be overridden in specific environments using the files
     # in config/environments, which are processed later.
     #
