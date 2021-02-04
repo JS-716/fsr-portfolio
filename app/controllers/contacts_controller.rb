@@ -9,8 +9,7 @@ class ContactsController < ApplicationController
     if @contact.deliver
       redirect_to root_url, notice: 'Votre message a bien été transmis !'
     else
-      #flash.now[:errors] = 'Merci de compléter tous les champs requis'
-      render :new, notice: 'Merci de compléter tous les champs requis'
+      render :new
     end
   end
 

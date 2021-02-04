@@ -34,6 +34,8 @@ gem 'simple_form'
 
 gem 'mail_form'
 
+gem 'rails-i18n'
+
 group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
