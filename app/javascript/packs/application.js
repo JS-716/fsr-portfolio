@@ -26,6 +26,7 @@ import "bootstrap";
 import { parallaxEffect } from "../lib/parallax-effect.js";
 import { burgerMenu } from "../lib/burger-menu.js";
 import { flippingCard } from "../lib/flipping-card.js"
+import { initAutocomplete } from "../plugins/init_autocomplete.js"
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
@@ -33,4 +34,5 @@ document.addEventListener('turbolinks:load', () => {
   parallaxEffect();
   burgerMenu();
   flippingCard();
+  initAutocomplete();
 });
