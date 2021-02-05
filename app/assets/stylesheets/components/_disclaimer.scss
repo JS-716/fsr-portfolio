@@ -1,0 +1,23 @@
+.disclaimer-content{
+  color: $creme;
+  margin-bottom: 4vh;
+  .disclaimer-paragraph{
+    display: flex;
+    align-items: baseline;
+    .disclaimer-title{
+      margin: 0 0 10px 0;
+    }
+    .disclaimer-text{
+      margin: 0 0 10px 20px;
+    }
+  }
+}
+
+#disclaimer-header{
+  margin-top: -30px;
+  margin-bottom: 4vh;
+}
+
+#last-item{
+  margin-bottom: 1rem;
+}
