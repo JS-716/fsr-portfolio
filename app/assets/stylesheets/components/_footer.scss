@@ -1,0 +1,20 @@
+.footer {
+  height: 8vh;
+  text-align: center;
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 320px 0 320px;
+    color: $creme;
+    font-size: 14px;
+    .new-tab {
+      text-decoration: none;
+      color: $creme;
+      font-size: 14px;
+      &:hover {
+      color: $gold;
+      font-size: 14px;
+      }
+    }
+  }
+}

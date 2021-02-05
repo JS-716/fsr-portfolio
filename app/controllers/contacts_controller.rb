@@ -13,7 +13,7 @@ class ContactsController < ApplicationController
     end
   end
 
-  def disclaimer
+  def mentions_legales
   end
 
   private
