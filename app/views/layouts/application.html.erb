@@ -14,9 +14,6 @@
   </head>
 
   <body>
-    <% unless current_page?("/") %> 
-      <%= render "shared/header" %> 
-    <% end %> 
     <%= yield %>
     <%= render "shared/footer" %>
   </body>
