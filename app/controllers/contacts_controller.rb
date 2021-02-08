@@ -9,6 +9,7 @@ class ContactsController < ApplicationController
     if @contact.deliver
       redirect_to root_url, notice: 'Votre message a bien été transmis !'
     else
+      @anchor ="anchor-contact"
       render :new
     end
   end

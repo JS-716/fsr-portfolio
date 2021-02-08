@@ -2,6 +2,10 @@ body, html {
   height: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container-banner {
   margin: 0px;
   display: flex;
@@ -37,7 +41,6 @@ body, html {
 
 .overflow {
   background-color: $light-brown;
-  /* height: 200vh; */
 }
 
 .parallax {

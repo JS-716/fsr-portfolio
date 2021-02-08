@@ -12,4 +12,9 @@
       <%= f.button :submit, 'Envoyer', :class=> "form-button" %>
     </div>
   <% end %>
+  <% if @anchor %>
+    <script type="text/javascript">
+      window.location.hash = "<%= @anchor %>";
+    </script>
+  <% end %>
 </div>
