@@ -1,0 +1,26 @@
+.sidebar-item {
+  color: $gold;
+  &:hover {
+    color: #614b43;
+    text-decoration: none;
+    font-size: 20px;
+  }
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding-top: 128px;
+  list-style: none;
+}
+
+.sidebar {
+  position: absolute;
+  top: 122vh;
+  width: 100%;
+  height: 275vh;
+  text-align: right;
+  padding-right: 60px;
+  line-height: 35px;
+}

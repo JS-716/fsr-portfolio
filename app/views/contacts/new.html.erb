@@ -25,10 +25,20 @@
 </div>
 
 <div class="overflow">
-
-  <%= render "portfolio" %>
-  <%= render "portray" %>
-  <%= render "form" %> 
+  <div class="wrapper">
+    <div class="sidebar ">
+      <ul class="sticky">
+        <li><a class="sidebar-item" href="/#anchor-portfolio">Mes Pâtisseries</a></li>
+        <li><a class="sidebar-item" href="/#anchor-portray">Qui suis-je ?</a></li>
+        <li><a class="sidebar-item" href="/#anchor-contact">Me Contacter</a></li>
+      </ul>
+    </div>
+    <div class="main">
+      <%= render "portfolio" %>
+      <%= render "portray" %>
+      <%= render "form" %> 
+    </div>
+  </div>
 </div>
 
   

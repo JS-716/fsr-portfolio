@@ -35,31 +35,32 @@
 }
 
 // Nabbar content
-  .main-navbar {
-    display: flex;
-    justify-content: flex-end;
-    margin: 50px 0;
-    .navbar-item {
-      color: white;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 22px;
-      font-family: $headers-font;
-    }
-    .navbar-item:hover {
-      font-weight: 600;
-    }
-    #navbar-item-2 {
-      color: white;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 22px;
-      font-family: $headers-font;
-    }
-    #navbar-item-2:hover {
-      font-weight: 600;
-    }
+
+.main-navbar {
+  display: flex;
+  justify-content: flex-end;
+  margin: 50px 0;
+  .navbar-item {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: $headers-font;
   }
+  .navbar-item:hover {
+    font-weight: 600;
+  }
+  #navbar-item-2 {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: $headers-font;
+  }
+  #navbar-item-2:hover {
+    font-weight: 600;
+  }
+}
 
 .menu {
   display: flex;
