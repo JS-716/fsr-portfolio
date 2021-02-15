@@ -1,27 +1,25 @@
-.sidebar-item {
+.fas, .fa-arrow-circle-up {
   color: $gold;
+  font-size: 55px;
   &:hover {
     color: #614b43;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 65px;
   }
 }
 
-.sticky {
+.sticky-shortcut {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  padding-top: 128px;
   list-style: none;
 }
 
-.sidebar {
+.shortcut {
   position: absolute;
   top: 122vh;
-  left: 85vw;
+  right: 85vw;
   height: 275vh;
-  text-align: right;
- /*  padding-right: 60px; */
-  padding-left: 30px;
-  line-height: 35px;
+/*   padding-left: 60px; */
+  padding-right: 30px;
 }
